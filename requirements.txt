@@ -1,0 +1,36 @@
+# 主要依賴
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.10
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+pydantic>=2.0.0
+transformers>=4.36.0
+torch>=2.0.0
+scikit-learn>=1.2.0
+nltk>=3.8.0
+rouge-score>=0.1.2
+
+# 向量資料庫依賴
+chromadb>=0.4.18
+weaviate-client>=3.24.0
+pymilvus>=2.3.0
+qdrant-client>=1.6.0
+
+# 微調依賴
+peft>=0.6.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+datasets>=2.14.0
+
+# 量化依賴
+optimum>=1.13.0
+auto-gptq>=0.5.0
+autoawq>=0.1.7
+
+# 評估依賴
+evaluate>=0.4.0
