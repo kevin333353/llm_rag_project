@@ -1,6 +1,8 @@
 # PDF 智能問答系統
 
 這是一個基於 RAG (Retrieval-Augmented Generation) 技術的 PDF 智能問答系統。系統可以讓用戶上傳 PDF 文件，並基於文件內容進行智能問答。
+![智慧問答](https://github.com/user-attachments/assets/8ab951d3-b0a1-4c59-973b-522f8bc46acf)
+
 
 ## 功能特點
 
