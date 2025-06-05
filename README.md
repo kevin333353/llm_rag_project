@@ -59,7 +59,7 @@ ollama serve
 2. 啟動後端服務：
 ```bash
 cd backend
-python api.py
+python -m uvicorn api:app --reload --host 0.0.0.0 --port 8000
 ```
 
 3. 啟動前端服務：
